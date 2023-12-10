@@ -1,6 +1,4 @@
-#sudo npm install -g npm@latest
-#sudo npm install -g n
-#sudo n stable
+#!/bin/bash
 
 sudo apt-get update
 sudo apt-get install -y ca-certificates curl gnupg
