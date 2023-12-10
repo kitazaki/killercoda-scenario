@@ -1,5 +1,6 @@
 #!/bin/bash
 
+## new instruction -> https://github.com/nodesource/distributions
 #sudo apt-get update
 #sudo apt-get install -y ca-certificates curl gnupg
 #sudo mkdir -p /etc/apt/keyrings
@@ -8,11 +9,9 @@
 #sudo apt-get update
 #sudo apt-get install nodejs -y
 
+## To use nvm
 curl -s -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 #source ~/.bashrc
 #nvm install 18
-
-#curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
-#sudo apt-get install -y nodejs
 
 touch /tmp/finished
