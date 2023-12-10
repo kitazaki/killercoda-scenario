@@ -8,6 +8,8 @@
 #sudo apt-get update
 #sudo apt-get install nodejs -y
 
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash && source ~/.bashrc && nvm install 18
+curl -s -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+source ~/.bashrc
+nvm install 18
 
 touch /tmp/finished
